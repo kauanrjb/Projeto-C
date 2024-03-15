@@ -34,7 +34,7 @@ int main(void){
   } else {
       
       /* Confirma ao jogador sua escolha e a do adversario */
-      if(escolha == 1){
+      if(escolha = 1){
     escolha2 = par;
     printf("Você é par e roberto, seu adversario, é impar.\n");
   } else {
@@ -82,7 +82,7 @@ int main(void){
     if (resultado2 == 0){
         
         /* Usamos outro if para determinar se a escolha do jogador foi par também */
-        if(escolha2 == par){
+        if(escolha2 = par){
         
         printf ("\nA soma dos valores escolhidos é %d, ou seja, PAR! \n", resultado);
         printf("\nParabéns, voce escolheu par e ganhou!"); 
